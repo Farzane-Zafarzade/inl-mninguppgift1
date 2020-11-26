@@ -217,6 +217,7 @@ namespace ekvationen
             }
 
             Console.Write("> Thank you for playing. The Sum of all round is {0} . Bye", total);
+            Console.ReadKey();
            
         }
     }
