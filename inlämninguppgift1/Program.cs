@@ -13,7 +13,7 @@ namespace ekvationen
             int[] num = new int[4];
             ArrayList sum = new ArrayList();
             int total = 0;
-            string vilk;
+            string cond;
 
             do
             {
@@ -203,10 +203,10 @@ namespace ekvationen
                 }
 
                 Console.WriteLine(" > Another try? Y / N");
-                vilk = Console.ReadLine();
+                cond = Console.ReadLine();
 
 
-            } while (vilk == "y");
+            } while (cond == "y");
 
             for (int i = 0; i < sum.Count; i++)
             {
@@ -217,7 +217,7 @@ namespace ekvationen
             }
 
             Console.Write("> Thank you for playing. The Sum of all round is {0} . Bye", total);
-            Console.ReadKey();
+           
         }
     }
 }
